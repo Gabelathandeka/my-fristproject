@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image:url('thando.jpg');
+    height:100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a{
+  text-decoretion:None;
+  color: black;
+  
+  
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    padding:0 1opx;
+    overflow: auto;
+    border: 2px white;
+}
+    header{
+      background-color: #999;
+    }
+
+        header nav h1{
+            float: left;
+            padding: 10px;
+        }
+header nav ul li a{
+ font: size 18px; 
+ text-align: center
+ display inline -block;
+ padding: 15px;
+}
+
+ header nav ul li a :hover{
+color: aqua;
+background-color: blueviolet;
+ }
+h1.intro{
+    text-align: center;
+    color: black;
+    font-size: 35;
+    margin: 40;
+}
+fornt{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(11,83,98,.6);
+    padding: 10px
+    padding- top 20px;
+    padding-top: 20px;
+    margin: -20px;
+    border: radius 10px;
+}
+frorm label{
+
+    display: block;
+    color: #999;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+form input[type ="text"];
+from input[type="email"];
+from input [type="password"]{
+    width:100%
+    padding: 12px;
+    margin:  15px auto;
+    width: 50px 
+    padding: 10px 12px
+    border-radius: 5px
+    color: #999;
+    text-align: centre;
+    font-size: 16px;
+}
+
+form input [type="submit"]{
+display: block;
+margin :15px auto;
+width: :50%;
+padding: 10px 12px
+border:none ;
+border: radius 8px;
+color: #000;
+text-align:center;
+font: size 16px;
+
+}
+form input[type="submit"]:hover{
+    background-color: #999;
+    color: blanchedalmond;
+    font-weight: bold;
+}
